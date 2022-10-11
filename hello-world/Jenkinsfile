@@ -1,9 +1,10 @@
-pipeline { #adding an edit
+pipeline {
     agent any 
     stages {
         stage('Static Analysis') {
             steps {
                 echo 'Run the static analysis to the code' 
+                echo 'Run'
             }
         }
         stage('Compile') {
