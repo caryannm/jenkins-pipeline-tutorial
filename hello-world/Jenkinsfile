@@ -10,6 +10,7 @@ pipeline {
         stage('Compile') {
             steps {
                 echo 'Compile the source code' 
+                echo 'Run Run'
             }
         }
         stage('Security Check') {
