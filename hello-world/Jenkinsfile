@@ -1,4 +1,4 @@
-pipeline {
+pipeline { #adding an edit
     agent any 
     stages {
         stage('Static Analysis') {
